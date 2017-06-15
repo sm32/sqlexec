@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sqlexecuter>
+	<executionscript friendlyname="test script">
+		<jdbcstring>jdbc:db2://server:port/DB</jdbcstring>
+		<username>username</username>
+		<password>pwd</password>
+		<sqlfile>test.sql</sqlfile>
+		<destinationpath>/result/</destinationpath>
+		<destinationfilename>output</destinationfilename>
+		<delimiter>||</delimiter>
+		<header>false</header>
+		<appendtime>true</appendtime>
+	</executionscript>	
+</sqlexecuter>
